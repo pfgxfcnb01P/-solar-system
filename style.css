@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(65, 190, 190);
+}
+h1 {
+    text-align: center;
+    font-family: Cambria;
+}
+.star:hover {
+    transform: translateX(730px) translateY(20px);
+    transition: all 0.5s linear;
+    
+}
+nav {
+    border-top: 3px solid #ebf52b;
+    border-bottom: 3px solid #ebf52b;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+
+}
+.solnse {
+   background-image: linear-gradient(yellow,rgb(227, 159, 25) );
+border-radius: 15%;
+}
+.merkyriu {
+    background-image: linear-gradient(rgb(145, 141, 132),white,rgb(145, 141, 132));
+border-radius: 15%;
+}
+.venera {
+   background-image: linear-gradient(yellow,white,rgb(239, 120, 8) );
+border-radius: 15%;
+}
+.zemle {
+    background-image: linear-gradient(rgb(13, 207, 22),rgb(85, 25, 25),lightblue);
+border-radius: 15%;
+}
+.mars {
+    background-image: linear-gradient(red,orange);
+border-radius: 15%;
+}
+.upiter {
+    background-image: linear-gradient(white,orange);
+border-radius: 15%;
+}
+.satyrn {
+    background-image: linear-gradient(rgb(212, 174, 104), rgb(151, 105, 18), white);
+border-radius: 15%;
+}
+.yran {
+    background-image: linear-gradient(lightblue,rgb(112, 203, 233));
+border-radius: 15%;
+}
+.neptyn {
+    background-image: linear-gradient(blue,white,rgb(61, 163, 197) );
+border-radius: 15%;
+}
+main {
+    text-align: center;
+}
+.raketa {
+    position: relative;
+    right: 300px;
+}
+.raketa:hover {
+    transform: translateX(800px);
+    transition: all 3s linear; 
+}
+.stak {
+    opacity: 0.1;
+}
+.stak:hover {
+    opacity: 1;
+    transition: all 3s linear;
+}
+.alg {
+    opacity: 0,1;
+}
+.alg:hover {
+    opacity: 1;
+    box-shadow: 10px 10px 3px 0 yellow, 20px 20px 3px 0 blue, 30px 30px 3px 0 red;
+transition: all 3s linear;
+}
+.rosscosm:hover {
+box-shadow: 5px 5px 2px 10px lightblue, 15px 15px 2px 20px blue, 20px 20px 2px 30px black;
+transition: all 1s linear;
+}
+.kroch {
+    position: relative;
+    right: 300px;
+}
+.kroch:hover {
+    transform: translateX(600px) translateY(100px);
+    transition: all 3s linear;
+}
+footer {
+    background-color: cornflowerblue;
+}
+footer a {
+    text-decoration: none;
+    color:black;
+}
